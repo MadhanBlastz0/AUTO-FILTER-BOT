@@ -66,10 +66,10 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟ�
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'kigvj01') # owner username without @
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+exlB9JM0tyc2NzI1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+vGh9ZXwDQPZhYjg1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+exlB9JM0tyc2NzI1')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Fileeboxx_bot?start=BQADAQAD2AYAAg5V-Eb8lJ1rFOxWmRYE')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+exlB9JM0tyc2NzI1') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+vGh9ZXwDQPZhYjg1') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
