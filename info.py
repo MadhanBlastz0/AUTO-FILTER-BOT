@@ -32,7 +32,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5
 # Admins, Channels & Users
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002233706633'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2021408974').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002169744829').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002172703000').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '2021408974').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
@@ -69,7 +69,7 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'kigvj01') # owner username witho
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+vGh9ZXwDQPZhYjg1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+exlB9JM0tyc2NzI1')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Fileeboxx_bot?start=BQADAQAD2AYAAg5V-Eb8lJ1rFOxWmRYE')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+vGh9ZXwDQPZhYjg1') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+vGh9ZXwDQPZhYjg1') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', False))
@@ -108,7 +108,7 @@ SHORTLINK_API = environ.get('SHORTLINK_API', 'hRPS5vvZc0OGOEUQJMJzPiojoVK2')
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
-MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
+MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friend ❤️')
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
